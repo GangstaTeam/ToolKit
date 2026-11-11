@@ -1,5 +1,6 @@
 [![Download Latest Release](https://img.shields.io/github/v/release/GangstaTeam/ToolKit?display_name=release&label=Download%20Latest%20Release&color=21ABC7)](https://github.com/GangstaTeam/ToolKit/releases/latest/download/ToolKit.zip)
-[![Downloads](https://img.shields.io/github/downloads/GangstaTeam/ToolKit/total?label=Total%20Downloads&color=ED1459)](#)
+
+
 
 # ToolKit
 
@@ -12,6 +13,17 @@ Modding toolkit for Scarface: The World Is Yours (PC).
 | Archive | `.rcf` archives |
 | Game | the running game's menus and HUD, live |
 | NIS | cutscenes (`art/nis/fsc/*.fsc`) |
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Pure3D](images/pure3d.png) | ![Character import](images/character-import.png) |
+| Pure3D: Tony with his skeleton | Character import: a custom model on the game's skeleton |
+| ![Frontend](images/frontend.png) | ![Frontend](images/frontend-vendor.png) |
+| Frontend: the Empire menu | Frontend: the street vendor |
+| ![Frontend](images/frontend-blackjack.png) | ![NIS](images/nis.png) |
+| Frontend: blackjack | NIS: a cutscene timeline |
 
 ## Installation
 
