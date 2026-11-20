@@ -1,18 +1,23 @@
 [![Download Latest Release](https://img.shields.io/github/v/release/GangstaTeam/ToolKit?display_name=release&label=Download%20Latest%20Release&color=21ABC7)](https://github.com/GangstaTeam/ToolKit/releases/latest/download/ToolKit.zip)
 
-
-
 # ToolKit
 
 Modding toolkit for Scarface: The World Is Yours (PC).
 
-| Workspace | Opens |
+| Workspace | What it does |
 |---|---|
-| Pure3D | `.p3d` models, textures and skeletons |
-| Frontend | menus and HUD (`frontend/*.p3d`) |
-| Archive | `.rcf` archives |
-| Game | the running game's menus and HUD, live |
-| NIS | cutscenes (`art/nis/fsc/*.fsc`) |
+| Pure3D | Opens and edits `.p3d` files: chunk tree, properties, hex view, textures and a 3D viewport. Imports your own models as characters on the game's skeleton. |
+| Frontend | Shows the menus and HUD (`frontend/*.p3d`) as the game draws them; move, edit and multi-select elements. |
+| Archive | Browses `.rcf` archives: extract, add, replace and rebuild. Plays the sounds inside and shows their original names. Files opened from an archive save back into it. |
+| Game | Inspects the running game's menus and HUD, live. |
+| NIS | Edits cutscenes (`art/nis/fsc/*.fsc`) on a timeline. |
+
+## What's new
+
+- Archive: play sounds (`.rsd`, `.wav`, `.ogg`) with Space or right click, and search them by their original name.
+- Archive: saving a file opened from an archive writes it back into the `.rcf`.
+- Frontend: select several elements with Ctrl+click and move them together.
+- Save notifications, and the title bar shows the full path of the open file.
 
 ## Screenshots
 
