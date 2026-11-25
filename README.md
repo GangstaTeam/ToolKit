@@ -6,18 +6,20 @@ Modding toolkit for Scarface: The World Is Yours (PC).
 
 | Workspace | What it does |
 |---|---|
-| Pure3D | Opens and edits `.p3d` files: chunk tree, properties, hex view, textures and a 3D viewport. Imports your own models as characters on the game's skeleton. |
+| Pure3D | Opens and edits `.p3d` files: chunk tree, properties, hex view, textures and a 3D viewport. Imports your own models as characters on the game's skeleton, and animations from Mixamo/Blender (`.fbx`, `.glb`). |
 | Frontend | Shows the menus and HUD (`frontend/*.p3d`) as the game draws them; move, edit and multi-select elements. |
 | Archive | Browses `.rcf` archives: extract, add, replace and rebuild. Plays the sounds inside and shows their original names. Files opened from an archive save back into it. |
+| Script | Edits TorqueScript (`.cs`) with highlighting, live errors and autocomplete for the game's natives and functions, and compiles it to `.cso` (F7). |
 | Game | Inspects the running game's menus and HUD, live. |
 | NIS | Edits cutscenes (`art/nis/fsc/*.fsc`) on a timeline. |
 
 ## What's new
 
-- Archive: play sounds (`.rsd`, `.wav`, `.ogg`) with Space or right click, and search them by their original name.
-- Archive: saving a file opened from an archive writes it back into the `.rcf`.
-- Frontend: select several elements with Ctrl+click and move them together.
-- Save notifications, and the title bar shows the full path of the open file.
+- Script workspace: write TorqueScript with syntax colours, errors as you type, suggestions and descriptions for every game native, and compile it to `.cso` with F7.
+- Archive: compiled scripts (`.cso`, `.dso`) open as readable source and extract as `.cs`.
+- Animations: play any clip on a character, then rename, trim, change speed or loop, duplicate, replace or export it.
+- Import animations from Mixamo or Blender (`.fbx`, `.glb`, `.gltf`) onto the game's characters, with a live preview.
+- Export a character for Mixamo straight from the viewport.
 
 ## Screenshots
 
